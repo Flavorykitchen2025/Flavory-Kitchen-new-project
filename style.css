@@ -410,3 +410,72 @@ height:400px;
 }
 
 }
+
+
+/* SERVICE IMAGE GALLERIES */
+
+.service-gallery-section{
+background:#fdfdfd;
+}
+
+.service-gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+margin-top:50px;
+}
+
+.service-gallery-card{
+background:white;
+border-radius:30px;
+overflow:hidden;
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.service-gallery-card:hover{
+transform:translateY(-8px);
+}
+
+.service-gallery-header{
+padding:25px;
+display:flex;
+align-items:center;
+gap:15px;
+font-size:1.2rem;
+background:#111;
+color:white;
+}
+
+.service-gallery-header i{
+color:#c4a86d;
+font-size:1.5rem;
+}
+
+.service-slider{
+display:flex;
+overflow-x:auto;
+scroll-snap-type:x mandatory;
+scroll-behavior:smooth;
+}
+
+.service-slider::-webkit-scrollbar{
+height:8px;
+}
+
+.service-slider::-webkit-scrollbar-thumb{
+background:#c4a86d;
+border-radius:20px;
+}
+
+.service-slider img{
+min-width:100%;
+height:300px;
+object-fit:cover;
+scroll-snap-align:start;
+transition:1s;
+}
+
+.service-slider img:hover{
+transform:scale(1.03);
+}
