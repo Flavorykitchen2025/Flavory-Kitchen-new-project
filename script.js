@@ -1,1 +1,0 @@
-console.log('Flavory Kitchen Website Loaded');
