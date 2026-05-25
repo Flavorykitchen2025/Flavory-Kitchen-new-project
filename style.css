@@ -1504,3 +1504,37 @@ text-align:center;
     background: #d4af37;
     color: #000;
 }
+
+.instagram-reels-section {
+  padding: 80px 20px;
+  background: #faf7f2;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  color: #777;
+  font-size: 16px;
+}
+
+.reels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+
+.instagram-media {
+  width: 100% !important;
+  min-width: 100% !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+}
